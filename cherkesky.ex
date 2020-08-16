@@ -1,5 +1,5 @@
 defmodule Cherkesky do
-  def hello do
-    "Hello Elixir"
+  def hello(stuff) do
+    "Hello "<>stuff
   end
 end
